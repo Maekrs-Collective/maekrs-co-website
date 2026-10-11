@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Acrata";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../public/fonts/Acrata_Text_Beta_4.otf") format("opentype")
+}
+
+@theme {
+  --font-maekrs: Acrata;
+
+  --color-primary-light: #FF3C10;
+  --color-primary-dark: #260802;
+}
